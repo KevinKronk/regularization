@@ -1,4 +1,7 @@
 # regularization
+Exploring Ridge and Lasso regression, L1 and L2 regularized Stochastic Gradient Descent, and Elastic Net regression. 
+Also performed L2 regularized logistic regression on the Iris flower dataset.
+Code based on Hands-On Machine Learning by Geron Aurelien.
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/41022783/72468086-56e46c80-37aa-11ea-8218-51f784ba4387.png)
