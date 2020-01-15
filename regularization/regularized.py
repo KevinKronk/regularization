@@ -66,6 +66,8 @@ iris = datasets.load_iris()
 x = iris['data'][:, (2, 3)]  # Petal length and width
 y = iris['target']
 plt.scatter(x[:, 0], x[:, 1], cmap='jet', c=y)
+plt.xlabel("Petal Length")
+plt.ylabel("Petal Width")
 
 # Create Logistic Regression model with L2 regularization
 log_reg = LogisticRegression(multi_class='multinomial', solver='lbfgs', C=10)
